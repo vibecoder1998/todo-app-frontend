@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Button() {
   return (
-    <button className="flex gap-2 bg-red-400" onClick={() => {}}>
+    <button className="flex gap-2 bg-red-400 rounded-2xl" onClick={() => {}}>
       <Image
         src={"/plus-large-svgrepo-com.svg"}
         className="text-red-500"
